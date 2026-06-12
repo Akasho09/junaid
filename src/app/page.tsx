@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
         {/* Avatar */}
-        <div className="hidden md:flex justify-center">
+        <div className="flex justify-center">
           <div className="relative w-52 h-52 rounded-2xl overflow-hidden border-4 border-white shadow-lg">
             <Image
               src={profile.avatar}

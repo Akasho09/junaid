@@ -53,7 +53,7 @@ export default function RunsChart() {
 
   return (
     <div style={{ height: 240 }}>
-      <Bar data={data} options={options} />
+      <Bar data={data} options ={options as any} />
     </div>
   )
 }
