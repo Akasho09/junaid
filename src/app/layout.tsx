@@ -78,7 +78,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/junaid-og.jpg",
+        url: "/junaid.jpeg",
         width: 1200,
         height: 630,
         alt: "Junaid Ahmad Malik",
