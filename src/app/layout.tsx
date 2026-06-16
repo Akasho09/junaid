@@ -95,7 +95,7 @@ export const metadata: Metadata = {
     description:
       "Official portfolio of Junaid Ahmad Malik featuring cricket achievements, academics, and projects.",
 
-    images: ["/junaid-og.jpg"],
+    images: ["/junaid.jpeg"],
   },
 
   verification: {
