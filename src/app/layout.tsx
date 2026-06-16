@@ -110,6 +110,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta name="google-site-verification" content="uhUSq3S9zTC8jQ-rP1KM_Ne-ZPVdXiya5FtSIS2RCkk" />
       <body className="min-h-screen bg-gray-50">
         <Navbar />
 
