@@ -2,7 +2,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://yoursite.com'
+  const base = 'https://junaid12.vercel.app'
   return [
     { url: base,              lastModified: new Date(), changeFrequency: 'monthly', priority: 1 },
     { url: `${base}/cricket`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },

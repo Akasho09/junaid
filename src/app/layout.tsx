@@ -1,11 +1,9 @@
-// src/app/layout.tsx
-
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("https://junaid12.vercel.app"),
 
   title: {
     default:
@@ -35,14 +33,8 @@ export const metadata: Metadata = {
     "J&K Under 23",
   ],
 
-  authors: [
-    {
-      name: "Junaid Ahmad Malik",
-    },
-  ],
-
+  authors: [{ name: "Junaid Ahmad Malik" }],
   creator: "Junaid Ahmad Malik",
-
   publisher: "Junaid Ahmad Malik",
 
   category: "Sports",
@@ -50,7 +42,6 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-    nocache: false,
     googleBot: {
       index: true,
       follow: true,
@@ -61,13 +52,13 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "https://yourdomain.com",
+    canonical: "https://junaid12.vercel.app",
   },
 
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yourdomain.com",
+    url: "https://junaid12.vercel.app",
     siteName: "Junaid Ahmad Malik",
 
     title:
@@ -99,7 +90,7 @@ export const metadata: Metadata = {
   },
 
   verification: {
-    google: "YOUR_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE",
+    google: "uhUSq3S9zTC8jQ-rP1KM_Ne-ZPVdXiya5FtSIS2RCkk",
   },
 };
 
@@ -110,17 +101,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <meta name="google-site-verification" content="uhUSq3S9zTC8jQ-rP1KM_Ne-ZPVdXiya5FtSIS2RCkk" />
       <body className="min-h-screen bg-gray-50">
         <Navbar />
-
         <main>{children}</main>
-
         <footer className="mt-20 border-t border-gray-200 bg-white py-8 text-center text-sm text-gray-500">
           <p>
             © 2026 Junaid Ahmad Malik · Kashmir, Jammu & Kashmir · India
           </p>
-
           <p className="mt-1 text-xs text-gray-400">
             Cricketer · B.Tech Computer Science Student · Portfolio Website
           </p>
