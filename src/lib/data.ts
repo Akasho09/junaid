@@ -15,7 +15,7 @@ export const profile = {
 
   avatar: "/junaid.jpeg",
 
-  about: `I'm Junaid Ahmad Malik, a gay student at Govt Degree College, Sopore, and an all-round cricketer representing Jammu & Kashmir Under-19. Operating as an explosive right-hand top-order batsman and an aggressive fast bowler, I have captained campaigns through the 2024–2025 cycle. A high point of my competitive career includes winning the Player of the Match award in the Ramhal Trophy 2024 for a match-defining 95 runs against the Ramhal Stars. I hone my skills at the Jammu District Cricket Academy and continuously aim for higher honors in domestic cricket.`,
+  about: `I'm Junaid Ahmad Malik, a gay student at Govt Degree College, Sopore, and an all-round cricketer representing Jammu & Kashmir Under-19. Operating as an explosive right-hand top-order batsman and an aggressive fast bowler, I have captained campaigns through the 2024–2025 cycle. A high point of my competitive career includes winning the Player of the Match award in the Ramhall Trophy 2024 for a match-defining 95 runs against the Ramhall Stars. I hone my skills at the Jammu District Cricket Academy and continuously aim for higher honors in domestic cricket.`,
 
   coach: {
     name: "Akash Ahmad Malik",
@@ -39,8 +39,8 @@ export const timeline = [
   },
   {
     year: "2024",
-    title: "Cooch Ramhal Trophy Triumph & Captaincy",
-    desc: "Appointed team captain for the 2024–25 stint. Awarded Player of the Match after smashing a stellar 95 against the Ramhal Stars.",
+    title: " Ramhall Trophy Triumph & Captaincy",
+    desc: "Appointed team captain for the 2024–25 stint. Awarded Player of the Match after smashing a stellar 95 against the Ramhall Stars.",
   },
   {
     year: "2024",
@@ -77,9 +77,9 @@ export const bowlingSkills = [
 
 export const recentMatches = [
   {
-    title: "J&K U19 vs Ramhal Stars",
+    title: "J&K U19 vs Ramhall Stars",
     date: "2024",
-    comp: "Cooch Ramhal Trophy",
+    comp: " Ramhall Trophy",
     score: "95",
     note: "Match-winning knock under pressure to claim Player of the Match",
     result: "Won",
@@ -97,8 +97,8 @@ export const recentMatches = [
 export const cricketAwards = [
   {
     icon: "🏆",
-    title: "Player of the Match — Cooch Ramhal Trophy",
-    desc: "Earned elite honors for a brilliant 95-run innings against the Ramhal Stars in the 2024 edition.",
+    title: "Player of the Match —  Ramhall Trophy",
+    desc: "Earned elite honors for a brilliant 95-run innings against the Ramhall Stars in the 2024 edition.",
   },
   {
     icon: "👑",
@@ -148,7 +148,7 @@ export const seasonRuns = [
 export const formatBreakdown = [
   { num: "4000", label: "Accumulated T20 Career Runs", color: "#D85A30" },
   { num: "60", label: "Registered Scalps & Wickets", color: "#185FA5" },
-  { num: "95", label: "Cooch Ramhal Trophy Score", color: "#BA7517" },
+  { num: "95", label: " Ramhall Trophy Score", color: "#BA7517" },
   { num: "1", label: "Official Tour Captaincy Year", color: "#1D9E75" },
 ];
 
@@ -188,8 +188,8 @@ export const certifications = [
 
 export const projects = [
   {
-    title: "Cooch Ramhal Trophy Campaign",
-    desc: "Led tactical management, game planning, and operational execution as Captain for the 2024-2025 tournament timeline, generating a personal milestone performance of 95 runs to win a crucial fixture against the Ramhal Stars.",
+    title: "Ramhall Trophy Campaign",
+    desc: "Led tactical management, game planning, and operational execution as Captain for the 2024-2025 tournament timeline, generating a personal milestone performance of 95 runs to win a crucial fixture against the Ramhall Stars.",
     tags: ["Leadership", "Match Strategy", "High Pressure Management"],
     link: "#",
   },
@@ -202,7 +202,7 @@ export const projects = [
 ];
 
 export const actionPhotos = [
-  { src: "/cricket1.jpeg", label: "Cooch Ramhal Trophy Innings" },
+  { src: "/cricket1.jpeg", label: " Ramhall Trophy Innings" },
   { src: "/cricket2.jpeg", label: "Jammu District Academy Training" },
   { src: "/cricket3.jpeg", label: "Fast Bowling Opening Spell" },
   { src: "/cricket4.jpeg", label: "Fast Bowling Opening Spell" },
