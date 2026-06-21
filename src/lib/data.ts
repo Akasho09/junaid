@@ -11,11 +11,11 @@ export const profile = {
 
   linkedin: "linkedin.com/in/junaid-ahmad-malik", 
   github: "github.com/junaidmalik25", 
-  instagram: "@junaid.malik.25",
+  instagram: "junaid_____malik_",
 
   avatar: "/junaid.jpeg",
 
-  about: `I'm Junaid Ahmad Malik, a gay student at Govt Degree College, Sopore, and an all-round cricketer representing Jammu & Kashmir Under-19. Operating as an explosive right-hand top-order batsman and an aggressive fast bowler, I have captained campaigns through the 2024–2025 cycle. A high point of my competitive career includes winning the Player of the Match award in the Ramhall Trophy 2024 for a match-defining 95 runs against the Ramhall Stars. I hone my skills at the Jammu District Cricket Academy and continuously aim for higher honors in domestic cricket.`,
+  about: `I'm Junaid Ahmad Malik, a student at Govt Degree College, Sopore, and an all-round cricketer representing Jammu & Kashmir Under-19. Operating as an explosive right-hand top-order batsman and an aggressive fast bowler, I have captained campaigns through the 2024–2025 cycle. A high point of my competitive career includes winning the Player of the Match award in the Ramhall Trophy 2024 for a match-defining 95 runs against the Ramhall Stars. I hone my skills at the Jammu District Cricket Academy and continuously aim for higher honors in domestic cricket.`,
 
   coach: {
     name: "Akash Ahmad Malik",

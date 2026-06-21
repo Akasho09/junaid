@@ -257,18 +257,40 @@ export function ProjectCard({ title, desc, tags, link }: ProjectCardProps) {
 }
 
 // ── ContactItem ────────────────────────────────────────────────────────────────
-interface ContactItemProps {
+type ContactItemProps = {
   icon: string
   label: string
   value: string
+  href?: string
 }
-export function ContactItem({ icon, label, value }: ContactItemProps) {
+
+export function ContactItem({
+  icon,
+  label,
+  value,
+  href,
+}: ContactItemProps) {
   return (
-    <div className="bg-white border border-gray-200 rounded-xl p-4 flex items-center gap-3">
-      <span className="text-2xl flex-shrink-0">{icon}</span>
-      <div>
-        <p className="text-xs text-gray-500">{label}</p>
-        <p className="text-sm font-medium">{value}</p>
+    <div className="bg-white border border-gray-200 rounded-xl p-4">
+      <div className="flex items-center gap-3">
+        <span className="text-xl">{icon}</span>
+
+        <div>
+          <p className="text-xs text-gray-500">{label}</p>
+
+          {href ? (
+            <a
+              href={href}
+              target={href.startsWith('http') ? '_blank' : undefined}
+              rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
+              className="text-sm font-medium text-emerald-700 hover:underline break-all"
+            >
+              {value}
+            </a>
+          ) : (
+            <p className="text-sm font-medium">{value}</p>
+          )}
+        </div>
       </div>
     </div>
   )

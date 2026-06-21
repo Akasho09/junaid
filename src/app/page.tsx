@@ -9,18 +9,13 @@ const pillars = [
   {
     icon: '🏏',
     heading: 'Cricket',
-    body: 'Punjab Under-23 · Off-spinner · Debut 2023 · 2,847 career runs',
+    body: 'J&K Under-23 · Fast-Bowler · Right-hand Batsman · Debut 2023 · 2,847 career runs',
   },
   {
     icon: '🎓',
     heading: 'Academics',
     body: 'B.Tech CSE · CU · CGPA 9.1 · AI/ML specialisation · Scholarship holder',
-  },
-  {
-    icon: '💻',
-    heading: 'Technology',
-    body: 'Python, ML, React Native · 3 research papers · 6 live projects',
-  },
+  }
 ]
 
 const navLinks = [
@@ -152,7 +147,7 @@ export default function Home() {
                 className="text-[10px] sm:text-[11px] font-semibold tracking-[0.14em] uppercase"
                 style={{ color: GOLD }}
               >
-                Punjab Under-23 · Off-spinner
+                J&K Under-23 · Fast-Bowler · Right-hand Batsman
               </span>
             </div>
 
@@ -173,7 +168,7 @@ export default function Home() {
 
             {/* Tags */}
             <div className="flex flex-wrap gap-1.5 sm:gap-2 mb-5 sm:mb-6">
-              {['Punjab U-23', 'B.Tech CSE', 'AI / ML', 'Debut 2023'].map((tag) => (
+              {['J&K U-23', 'Fast-Bowler', 'Right-hand Batsman', 'Debut 2023'].map((tag) => (
                 <span
                   key={tag}
                   className="text-[10px] sm:text-[11px] font-semibold tracking-wide uppercase px-2.5 sm:px-3 py-1 rounded bg-gray-50 border border-gray-200 text-gray-500"

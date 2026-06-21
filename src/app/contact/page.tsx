@@ -25,17 +25,49 @@ export default function ContactPage() {
       </div>
 
       {/* Contact grid */}
-      <section className="mb-10">
-        <SectionTitle>Contact details</SectionTitle>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <ContactItem icon="📧" label="Email"     value={profile.email} />
-          <ContactItem icon="📱" label="Phone"     value={profile.phone} />
-          <ContactItem icon="📍" label="Location"  value={`${profile.location} · Chandigarh (term)`} />
-          <ContactItem icon="🔗" label="LinkedIn"  value={profile.linkedin} />
-          <ContactItem icon="💻" label="GitHub"    value={profile.github} />
-          <ContactItem icon="📸" label="Instagram" value={profile.instagram} />
-        </div>
-      </section>
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+  <ContactItem
+    icon="📧"
+    label="Email"
+    value={profile.email}
+    href={`mailto:${profile.email}`}
+  />
+
+  <ContactItem
+    icon="📱"
+    label="Phone"
+    value={profile.phone}
+    href={`tel:${profile.phone.replace(/\s+/g, '')}`}
+  />
+
+  <ContactItem
+    icon="📍"
+    label="Location"
+    value={`${profile.location} · Chandigarh (term)`}
+    href={`https://maps.google.com/?q=${encodeURIComponent(profile.location)}`}
+  />
+
+  <ContactItem
+    icon="🔗"
+    label="LinkedIn"
+    value="LinkedIn Profile"
+    href={profile.linkedin}
+  />
+
+  <ContactItem
+    icon="💻"
+    label="GitHub"
+    value="GitHub Profile"
+    href={profile.github}
+  />
+
+  <ContactItem
+    icon="📸"
+    label="Instagram"
+    value="Instagram Profile"
+    href={`https://www.instagram.com/${profile.instagram}`}
+  />
+</div>
 
       {/* Representation */}
       <section className="mb-10">
