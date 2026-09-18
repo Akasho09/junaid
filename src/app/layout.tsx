@@ -101,16 +101,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-gray-50">
+      <body className="min-h-screen bg-[#07111f]">
         <main>{children}</main>
-        <footer className="mt-20 border-t border-gray-200 bg-white py-8 text-center text-sm text-gray-500">
-          <p>
-            © 2026 Junaid Ahmad Malik · Kashmir, Jammu & Kashmir · India
-          </p>
-          <p className="mt-1 text-xs text-gray-400">
-            Cricketer · B.Tech Computer Science Student · Portfolio Website
-          </p>
-        </footer>
       </body>
     </html>
   );
